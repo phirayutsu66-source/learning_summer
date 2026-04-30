@@ -1,12 +1,11 @@
-# Import PySide6 classes
 import sys
 from PySide6.QtWidgets import *
-# สร้างโปรแกรมดว้ย Qt
+
 app = QApplication(sys.argv)
-# สร้าง Label และแสดง
-label = QLabel("Hello World")
+
+label = QLabel("<font color=red size=40>Hello World</font>")
 label.resize(320, 240)
+label.setWindowTitle("Hello, World!")
 label.show()
-# Enter Qt application main loop
-appS.exec()
+
 sys.exit(app.exec())
