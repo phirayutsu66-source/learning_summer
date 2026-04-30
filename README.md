@@ -3,4 +3,4 @@
 
 Hello Word
 
-Heloo VSCODE
+Hello VSCODE
